@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #c9ccd14f;
+
+}
+
+.box1 {
+    /* background-color: red; */
+    width: 68vw;
+    height: 335px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.container {
+    margin: 2px 85px;
+    ;
+}
+
+.container>img {
+    width: 301px;
+    height: 61px;
+    margin: 23px;
+}
+
+.container>h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 2px 28px;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.box2 {
+    /* background-color: #bababa; */
+    /* width: 50%;
+    height: 90vh; */
+    /* width: 396px;
+    height: 496px; */
+    width: 500px;
+height: 421px;
+    margin-right: 158px;
+}
+
+.form {
+    background-color: ;
+    width: 396px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h4 {
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    font-family: 13px;
+}
+
+.form1 {
+    width: 396px;
+    height: 346px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0.1px 0px 13.1px 0.6px #00000030;
+}
+
+.inp {
+    padding: 14px 16px;
+    margin: 5px 23px;
+    font-size: 17px;
+    border-radius: 7px;
+    width: 350px;
+    border: 1px solid #0003;
+
+}
+.email{
+    margin-top: 13px;
+}
+
+.link {
+    text-align: center;
+    margin: 8px;
+    color: blue
+}
+
+.blanck {
+    border-bottom: 1px solid #0003;
+    padding: 14px 16px;
+    margin: 5px 23px;
+}
+
+.btn1 {
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.btn2 {
+    background-color: #42b72a;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bolder;
+    width: 58%;
+    margin: auto;
+}

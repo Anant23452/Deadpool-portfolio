@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.sidebar {
+    background: linear-gradient(red, rgba(109, 100, 100, 0.645));
+    /* width: 434px; */
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    /* transition: transform .1s ease-in; */
+}
+
+.logo {
+    width: 84px;
+    margin: 22px 53px;
+    padding: 27px 3px;
+}
+
+
+.logo>img {
+    width: 60px;
+    border-radius: 34px;
+    text-align: center;
+    margin: 0px 9px;
+}
+
+.logo>p {
+    padding: 1px 9px;
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main {
+    /* background-color: aqua; */
+    width: 317vh;
+    background: linear-gradient(red, black);
+    height: 700px;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    padding: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+
+}
+
+nav>ul>li {
+    padding: 16px 0px;
+}
+
+nav>ul {
+    margin: -74px 0px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    font-family: cursive;
+}
+
+.info {
+    /* background-color: rgb(77, 48, 48); */
+    height: 57vh;
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+    /* color: white; */
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.devpic {}
+
+.devpic>img {
+    /* border: 2px solid white; */
+    /* width: 316px;
+    margin-top: 66px;
+    background-color: black; */
+    height: 400px;
+}
+
+.Hello {
+    font-size: 65px;
+    font-family: cursive;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+}
+
+.about {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.button {
+    padding: 0px 8px;
+    margin-top: 25px;
+}
+
+.button>button {
+    border: 2px solid;
+    border-radius: 19px;
+    padding: 2px 3px;
+    color: white;
+    background-color: #f70202;
+    padding: 6px 7px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.button>button:hover {
+    background-color: #ffffff;
+    color: rgb(253, 6, 6);
+}
+
+.button>button>a {
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+}
+.button>button>a:hover{
+    color: red;
+}
+
+.contactform {
+    font-family: cursive;
+    padding: 64px 164px;
+    background: linear-gradient(red, black);
+    height: 670px;
+    color: white;
+}
+
+.contactform>h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-align: center; */
+}
+
+.contactform>form {
+    padding: 30px 0px;
+}
+
+.contactform>form>div {
+    padding: 14px 0px;
+    cursor: pointer;
+}
+
+#emailHelp {
+    font-size: 10px;
+    margin: 1px 3px;
+    color: #000000;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.form-control {
+    border: 1.5px solid black;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 3, 3);
+    border: 1px solid rgb(251, 2, 2);
+    border-radius: 5px;
+    padding: 3px 2px;
+    font-family: cursive;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 4, 4);
+    cursor: pointer;
+}
+
+.blogcontainer {
+    padding: 43px 34px;
+    background: linear-gradient(red, black);
+    color: white;
+    height: 670px;
+}
+
+.blogcontainer>h1 {
+    padding: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blogitems {
+    margin: 20px;
+    font-family: cursive;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    /* margin: 5px 5px; */
+
+}
+
+.info-head {
+    margin: 21px 339px;
+    font-size: 34px;
+    text-align: center;
+    width: 345px;
+}
+
+.info-box {
+    color: rgb(255, 243, 243);
+    display: flex;
+    width: 347px;
+    flex-direction: column;
+    border-right: 1px solid;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info-img>img {
+    border-radius: 434px;
+}
+
+.info-para {
+    font-family: cursive;
+}
+
+.safe {
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(248, 7, 7);
+}
+
+.infod {
+    margin: 5px 5px;
+}
+
+.service-head {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.service-box {
+    display: grid;
+    /* background-color: blue; */
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+    text-align: center;
+    margin: 80px 37px;
+    height: 62vh;
+
+
+}
+
+.service-img {
+    /* background-color: aquamarine; */
+
+
+}
+
+.service-img>img {
+    /* width: 230px; */
+
+}
+
+.text {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-size: 21px;
+
+}
+
+.service-content>p {
+    font-family: cursive;
+    color: white;
+}
+
+.btn3 {
+    border: 2px solid black;
+    border-radius: 19px;
+    margin: 14px 13px;
+    width: 99px;
+    background: red;
+    padding: 1px 7px;
+}
+
+.btn3:hover {
+    background-color: whitesmoke;
+    color: red;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 240px;
+}
+
+.img2 {
+    width: 226px;
+}
+
+.img3 {
+    width: 223px;
+}
+
+.img4 {
+    width: 226px;
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+    transition:transform .4s ease-in;
+}
+
+.hamp {
+    width: 35px;
+    position: absolute;
+    left: 8px;
+}
+
+.cross {
+    width: 35px;
+    position: absolute;
+    left: 172px;
+}
+
+
+
+
+
+/* Media querry */
+
+@media (max-width:870px) {
+    * {
+        /* background-color: white; */
+    }
+
+    .main {
+        height: 880px;
+
+
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .devinfo {
+        font-size: 10px;
+    }
+
+    .devpic {}
+
+    .devpic>img {
+        height: 215px;
+    }
+
+    .contactform {
+        padding: 64px 45px;
+        height: 810px;
+
+    }
+
+    .blogcontainer {
+
+        height: 815px;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+
+    .info-para {
+        font-size: .5rem;
+    }
+
+    .info-img>img {
+        width: 12em;
+        border-radius: 45px;
+    }
+
+    .safe {
+        margin-top: 65px;
+        display: none;
+        text-align: left;
+        color: rgb(248, 7, 7);
+        font-size: .5rem;
+    }
+
+    .info-box {
+        border: none;
+        margin: 24px 2px;
+    }
+
+    .blogitems {
+        font-size: .6rem;
+    }
+
+    .btn-in {
+        width: 53px;
+        height: 16px;
+        font-size: 8px;
+    }
+
+    .info-head {
+        margin: 64px 15px;
+        font-size: 24px;
+    }
+
+    .service-box {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 1rem;
+        text-align: center;
+        margin: 42px 37px;
+        height: 62vh;
+        font-size: .7rem;
+    }
+
+    .service-head {
+        font-size: 0.7rem;
+        margin: 47px 2px;
+        text-align: left;
+    }
+    .service-img>img{
+        width: 115px;
+        
+    }
+    .btn3 {
+        border: 0px solid black;
+        border-radius: 8px;
+        margin: 9px 133px;
+        width: 61px;
+        background: red;
+        padding: 0px 1px;
+      }
+      .service-img{
+        display: flex;
+      }
+   .text{
+    color: black;
+    text-align: center;
+   }
+   .service-content>p{
+    width: 189px;
+   }
+   .btn3 {
+    border: 1px solid black;
+    margin: 9px 55px;
+    width: 67px;
+    padding: 0px 2px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
